@@ -9,7 +9,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v10
         with:
           urls: |
-            https://scrimba.com/allcourses
+            http://localhost/Jobloop/LighthouseTest/
           budgetPath: ./budget.json # test performance budgets
           uploadArtifacts: true # save results as an action artifacts
           temporaryPublicStorage: true # upload lighthouse report to the temporary storage
